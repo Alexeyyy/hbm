@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: black;
+}
+
+.birthday-background {
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.console {
+  margin: 3px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 1;
+}
+
+.birthday-image {
+  filter: drop-shadow(0px 0px 10px #00FF00);
+}
+
+.birthday-text {
+  margin-top: 15px;
+  text-align: left;
+  color: #00FF00;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.birthday-text > p {
+  margin-bottom: 10px;
+}
